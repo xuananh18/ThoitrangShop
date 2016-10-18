@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoitrangShop.Common", "ThoitrangShop.Common\ThoitrangShop.Common.csproj", "{57651A9F-AA39-485A-B909-633ADCB6D8B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoitrangShop.Model", "ThoitrangShop.Model\ThoitrangShop.Model.csproj", "{8AED0D92-5C20-47A7-9EF3-7FBF50D13C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoitrangShop.Data", "ThoitrangShop.Data\ThoitrangShop.Data.csproj", "{0F96955A-4EAA-4A31-BDA7-411E5FE2D469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoitrangShop.Service", "ThoitrangShop.Service\ThoitrangShop.Service.csproj", "{1C9FB4B8-6C01-4F40-80D5-F2BD39A74C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoitrangShop.UnitTest", "ThoitrangShop.UnitTest\ThoitrangShop.UnitTest.csproj", "{8539893B-4894-4A72-B4FE-2A2C7DB94E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoitrangShop.Web", "ThoitrangShop.Web\ThoitrangShop.Web.csproj", "{9D9E24A5-C118-4B2D-904E-9B3B8AD54442}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57651A9F-AA39-485A-B909-633ADCB6D8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57651A9F-AA39-485A-B909-633ADCB6D8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57651A9F-AA39-485A-B909-633ADCB6D8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57651A9F-AA39-485A-B909-633ADCB6D8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AED0D92-5C20-47A7-9EF3-7FBF50D13C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AED0D92-5C20-47A7-9EF3-7FBF50D13C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AED0D92-5C20-47A7-9EF3-7FBF50D13C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AED0D92-5C20-47A7-9EF3-7FBF50D13C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F96955A-4EAA-4A31-BDA7-411E5FE2D469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F96955A-4EAA-4A31-BDA7-411E5FE2D469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F96955A-4EAA-4A31-BDA7-411E5FE2D469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F96955A-4EAA-4A31-BDA7-411E5FE2D469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9FB4B8-6C01-4F40-80D5-F2BD39A74C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9FB4B8-6C01-4F40-80D5-F2BD39A74C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9FB4B8-6C01-4F40-80D5-F2BD39A74C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9FB4B8-6C01-4F40-80D5-F2BD39A74C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8539893B-4894-4A72-B4FE-2A2C7DB94E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8539893B-4894-4A72-B4FE-2A2C7DB94E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8539893B-4894-4A72-B4FE-2A2C7DB94E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8539893B-4894-4A72-B4FE-2A2C7DB94E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9E24A5-C118-4B2D-904E-9B3B8AD54442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9E24A5-C118-4B2D-904E-9B3B8AD54442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9E24A5-C118-4B2D-904E-9B3B8AD54442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9E24A5-C118-4B2D-904E-9B3B8AD54442}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
