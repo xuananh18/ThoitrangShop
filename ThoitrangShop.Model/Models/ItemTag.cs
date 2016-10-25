@@ -12,10 +12,11 @@ namespace ThoitrangShop.Model.Models
     public class ItemTag
     {
         [Key]
+        [Column(Order=1)]
         public int ID_Item { set; get; }
 
         [Key]
-        [Column(TypeName = "varchar")]
+        [Column(TypeName = "varchar", Order = 2)]
         [MaxLength(50)]
         public string ID_Tag { set; get; }
 

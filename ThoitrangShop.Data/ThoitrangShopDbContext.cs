@@ -32,7 +32,13 @@ namespace ThoitrangShop.Data
         public DbSet<SystemConfig> SystemConfigs { set; get; }
         public DbSet<Tag> Tags { set; get; }
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
-
+        public DbSet<Recoment> Recoments { set; get; }
+        public DbSet<Item_Cat> Item_Cats { set; get; }
+        public DbSet<Item_Sub> Item_Subs { set; get; }
+        public DbSet<Post_Cat> Post_Cats { set; get; }
+        public DbSet<Post_Sub> Post_Subs { set; get; }
+        public DbSet<PostSub> PostSubs { set; get; }
+        public DbSet<SubCat> SubCats { set; get; }
         protected override void OnModelCreating(DbModelBuilder Builder)
         {
             

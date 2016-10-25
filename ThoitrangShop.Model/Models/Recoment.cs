@@ -8,23 +8,18 @@ using System.Threading.Tasks;
 
 namespace ThoitrangShop.Model.Models
 {
-    [Table("OrderDetails")]
-    public class OrderDetail
+    [Table("Recoments")]
+    public class Recoment
     {
         [Key]
         [Column(Order = 1)]
-        public int ID_Customer { set; get; }
+        public int ID_Rec { set; get; }
 
         [Key]
         [Column(Order = 2)]
         public int ID_Item { set; get; }
 
-        [ForeignKey("ID_Customer")]
-        public virtual Order Order { set; get; }
-
         [ForeignKey("ID_Item")]
         public virtual Item Item { set; get; }
-
-        public int Quantity { set; get; }
     }
 }

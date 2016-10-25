@@ -23,7 +23,9 @@ namespace ThoitrangShop.Model.Models
 
         [MaxLength(256)]
         public string Image { set; get; }
-        public XElement MoreImage { set; get; }
+
+        [Column(TypeName ="xml")]
+        public string MoreImage { set; get; }
         public decimal Price { set; get; }
         public decimal? PromotionPrice { set; get; }
         public int? Warranty { set; get; }
@@ -40,5 +42,7 @@ namespace ThoitrangShop.Model.Models
         public virtual IEnumerable<OrderDetail> OrderDetails { set; get; }
 
         public virtual IEnumerable<ItemTag> ItemTags { set; get; }
+
+        public virtual IEnumerable<Recoment> Recoments { set; get; }
     }
 }
