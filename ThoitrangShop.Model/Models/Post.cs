@@ -23,7 +23,9 @@ namespace ThoitrangShop.Model.Models
         public string Alias { set; get; }
 
         public string Image { set; get; }
-        public XElement MoreImage { set; get; }
+
+        [Column(TypeName = "xml")]
+        public string MoreImage { set; get; }
         public decimal Price { set; get; }
         public decimal? PromotionPrice { set; get; }
         public int? Warranty { set; get; }

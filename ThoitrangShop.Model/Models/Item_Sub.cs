@@ -12,9 +12,11 @@ namespace ThoitrangShop.Model.Models
     public class Item_Sub
     {
         [Key]
+        [Column(Order=1)]
         public int ID_Item { set; get; }
 
         [Key]
+        [Column(Order = 2)]
         public int ID_SubCat { set; get; }
 
         [ForeignKey("ID_Item")]
