@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ThoitrangShop.Model.Models;
 
 namespace ThoitrangShop.Data
 {
-    public class ThoitrangShopDbContext:DbContext
+    public class ThoitrangShopDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ThoitrangShopDbContext():base("ThoitrangShopConnection")
+        public ThoitrangShopDbContext() : base("ThoitrangShopConnection")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
@@ -39,9 +35,17 @@ namespace ThoitrangShop.Data
         public DbSet<Post_Sub> Post_Subs { set; get; }
         public DbSet<PostSub> PostSubs { set; get; }
         public DbSet<SubCat> SubCats { set; get; }
-        protected override void OnModelCreating(DbModelBuilder Builder)
+        public DbSet<Error> Errors { set; get; }
+
+        public static ThoitrangShopDbContext Create()
         {
-            
+            return new ThoitrangShopDbContext();
+        }
+
+        protected override void OnModelCreating(DbModelBuilder builder)
+        {
+            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId });
+            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId);
         }
     }
 }

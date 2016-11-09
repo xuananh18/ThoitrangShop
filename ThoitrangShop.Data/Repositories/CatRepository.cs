@@ -5,7 +5,7 @@ using ThoitrangShop.Model.Models;
 
 namespace ThoitrangShop.Data.Repositories
 {
-    public interface ICatRepository
+    public interface ICatRepository : IRepository<Cat>
     {
         IEnumerable<Cat> GetByAlias(string alias);
     }

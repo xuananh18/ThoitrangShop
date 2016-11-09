@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatService.cs" />
+    <Compile Include="ErrorService.cs" />
+    <Compile Include="OrderService.cs" />
+    <Compile Include="PageService.cs" />
+    <Compile Include="PostCatService.cs" />
+    <Compile Include="PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
